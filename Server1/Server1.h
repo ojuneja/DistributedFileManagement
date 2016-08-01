@@ -45,10 +45,10 @@ void connectAndPerformOperation(SocketConnecter &si,Sender cl, std::map<std::str
 *
 *  Maintenance History :
 *--------------------
-*  ver 1.2 : 26 Apr 2015 - modified some functions
-*  ver 1.1 : 09 Apr 15
+*  ver 1.2 : 26 Apr 2016 - modified some functions
+*  ver 1.1 : 09 Apr 16
 * -minor changes by adding command line arguments
-*  ver 1.0 : 05 Apr 15
+*  ver 1.0 : 05 Apr 16
 * -first release
 */
 #include<iostream>

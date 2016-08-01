@@ -8,7 +8,7 @@
 //  Language:     Visual C++, ver 13.0                           //
 //  Platform:     HP Pavilion g series, Win 7.0                  //
 //  Application:Project - 4(Remote Code Management)              //
-//  Author:       Jim Fawcett, CSE#687 - OOD, Spring 2015        //
+//  Author:       Jim Fawcett, CSE#687 - OOD, Spring 2016        //
 //                CST 4-187, Syracuse University, 315 443-3948,  //
 //                jfawcett@twcny.rr.com                          //
 // Modified By:   Ojas Juneja                                    //
@@ -45,14 +45,14 @@ std::string setPath(std::string command_, std::string category, std::string file
 *
 *  Maintenance History :
 *--------------------
-*  ver 1.4 : 26 Apr 2015 - added some functions
-*  ver 1.3 : 09 Apr 15
+*  ver 1.4 : 26 Apr 2016 - added some functions
+*  ver 1.3 : 09 Apr 16
 * - commenting
-*  ver 1.2 : 05 Apr 15
+*  ver 1.2 : 05 Apr 16
 *  - done major changes by implementing logic of writing buffers to files and modified logic of callable object
-*  ver 1.1 : 30 Mar 15
+*  ver 1.1 : 30 Mar 16
 *  - minor modification to comments, above
-*  ver 1.0 : 30 Mar 15
+*  ver 1.0 : 30 Mar 16
 *  - first release
 */
 #include "../sockets/sockets.h"

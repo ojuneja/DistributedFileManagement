@@ -38,9 +38,9 @@ void static displayString(std::string string) - display message to console
 *
 *  Maintenance History :
 *--------------------
-* ver 1.1 - 28 Apr 15
+* ver 1.1 - 28 Apr 16
 * - second release
-*  ver 1.0 : 09 Apr 15
+*  ver 1.0 : 09 Apr 16
 * -first release
 */
 

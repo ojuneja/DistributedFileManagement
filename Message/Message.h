@@ -7,7 +7,7 @@
 //  Language:     Visual C++, ver 13.0                           //
 //  Platform:     HP Pavilion g series, Win 7.0                  //
 //  Application:Project - 4(Remote Code Management)              //
-// Modified By:   Ojas Juneja                                    //
+// Author:    Ojas Juneja                                    //
 //                Syracuse University                            //
 //                ojuneja@syr.edu, (315) 751-8944                //
 ///////////////////////////////////////////////////////////////////
@@ -37,10 +37,10 @@ std::string makeQueueCommand(std::string comm, std::string fileName, std::string
 *
 *  Maintenance History :
 *--------------------
-*  ver 1.2 : 26 Apr 2015 - done minor changes related to header
-*  ver 1.1 : 09 Apr 15
+*  ver 1.2 : 26 Apr 2016 - done minor changes related to header
+*  ver 1.1 : 09 Apr 16
 * -minor changes to HTTP Header
-*  ver 1.0 : 05 Apr 15
+*  ver 1.0 : 05 Apr 16
 * -first release
 */
 #include<String>

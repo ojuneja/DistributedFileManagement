@@ -38,9 +38,9 @@
 *
 * Maintenance History :
 *--------------------
-* ver 1.1 : 26 Jan 2015
+* ver 1.1 : 26 Jan 2016
 * -added copy constructor and assignment operator
-* ver 1.0 : 03 Mar 2014
+* ver 1.0 : 03 Mar 2016
 * -first release*/
 
 #include "../QServer/Cpp11-BlockingQueue.h"

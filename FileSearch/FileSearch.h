@@ -47,10 +47,10 @@ std::string filterFiles(std::vector<std::string> strPatternsandText_,std::string
 *
 *  Maintenance History :
 *----------------------
-* ver 2.1 : 26 Apr 2015 - removed some functions
-*Ver 2.0 : 9 Feb 15
+* ver 2.1 : 26 Apr 2016 - removed some functions
+*Ver 2.0 : 9 Feb 2016
 * -second release
-*Ver 1.0 : 6 Feb 15
+*Ver 1.0 : 6 Feb 2016
 * -first release
 */
 

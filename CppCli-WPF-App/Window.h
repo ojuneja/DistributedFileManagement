@@ -4,8 +4,7 @@
 // Window.h - C++\CLI implementation of WPF Application                  //
 //          - Project - 4(Remote Code Management)                       //
 // ver 2.1                                                               //
-// Jim Fawcett, CSE687 - Object Oriented Design, Spring 2015             //
-// Modified By:  Ojas Juneja - Syracuse University                       //
+// Author:  Ojas Juneja - Syracuse University                       //
 ///////////////////////////////////////////////////////////////////////////
 /*
 *  Package Operations:
@@ -39,12 +38,12 @@
 *
 *  Maintenance History:
 *  --------------------
-*  ver 2.1: 26 Apr 2015
+*  ver 2.1: 26 Apr 2016
 *  - Done major changes to UI according to project requirements
-*  ver 2.0 : 15 Apr 2015
+*  ver 2.0 : 16 Apr 2016
 *  - completed message passing demo with mock channel
 *  - added FileBrowserDialog to show files in a selected directory
-*  ver 1.0 : 13 Apr 2015
+*  ver 1.0 : 13 Apr 2016
 *  - incomplete demo with GUI but not connected to mock channel
 */
 /*

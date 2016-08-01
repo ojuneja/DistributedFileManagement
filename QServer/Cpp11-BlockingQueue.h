@@ -3,7 +3,7 @@
 ///////////////////////////////////////////////////////////////
 // Cpp11-BlockingQueue.h - Thread-safe Blocking Queue        //
 // ver 1.1                                                   //
-// Jim Fawcett, CSE687 - Object Oriented Design, Spring 2015 //
+// Ojas Juneja, Syracuse University//
 ///////////////////////////////////////////////////////////////
 /*
  * Package Operations:
@@ -24,9 +24,9 @@
  *
  * Maintenance History:
  * --------------------
- * ver 1.1 : 26 Jan 2015
+ * ver 1.1 : 26 Jan 2016
  * - added copy constructor and assignment operator
- * ver 1.0 : 03 Mar 2014
+ * ver 1.0 : 03 Mar 2016
  * - first release
  */
 

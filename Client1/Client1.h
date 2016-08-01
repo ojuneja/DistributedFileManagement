@@ -8,7 +8,7 @@
 //  Language:     Visual C++, ver 13.0                           //
 //  Platform:     HP Pavilion g series, Win 7.0                  //
 //  Application:Project - 4(Remote Code Management)              //
-// Modified By:   Ojas Juneja                                    //
+// Author:   Ojas Juneja                                    //
 //                Syracuse University                            //
 //                ojuneja@syr.edu, (315) 751-8944                //
 ///////////////////////////////////////////////////////////////////
@@ -44,10 +44,10 @@ void connectAndPerformOperation(SocketConnecter &si,Sender cl, std::map<std::str
 *
 *  Maintenance History :
 *--------------------
-* ver 1.2 : 28 Apr 15 - added some functions
-*  ver 1.1 : 09 Apr 15
+* ver 1.2 : 28 Apr 16 - added some functions
+*  ver 1.1 : 09 Apr 16
 * -minor changes by adding command line arguments
-*  ver 1.0 : 05 Apr 15
+*  ver 1.0 : 05 Apr 16
 * -first release
 */
 

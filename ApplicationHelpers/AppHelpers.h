@@ -4,7 +4,7 @@
 // AppHelpers.h - I/O and Conversion helpers                           //
 // ver 2.0                                                             //
 //---------------------------------------------------------------------//
-// Jim Fawcett (c) copyright 2015                                      //
+// Jim Fawcett (c) copyright 2016                                      //
 // All rights granted provided this copyright notice is retained       //
 //  Modified By: Ojas Juneja                                          //
 //---------------------------------------------------------------------//
@@ -13,7 +13,7 @@
 /////////////////////////////////////////////////////////////////////////
 /*  Maintenance History :
 *--------------------
-*  ver 1.0 : 10 Apr 15 - made one more function void static showMap(std::string str,std::map<std::string, std::string> map, bool always)*/
+*  ver 1.0 : 10 Apr 16 - made one more function void static showMap(std::string str,std::map<std::string, std::string> map, bool always)*/
 #include <string>
 #include <iostream>
 #include <sstream>
