@@ -1,0 +1,54 @@
+if (head == NULL || head->getNext() == NULL)
+		return;
+	if (size_ % 2 == 0)
+	{
+		size1 = size2 = size_ / 2;
+	}
+	else
+	{
+		size1 = size_ / 2;
+		size2 = size_ / 2 + 1;
+	}
+	ISingleNode03 *left = getMiddleElement(head, size1);
+	ISingleNode03 *right = left->getNext();
+	left->setNext(NULL);
+	left = head;
+	mergeSorting(left, size1);
+	mergeSorting(right, size2);
+	ISingleNode03 *resultSort = merge(left, right);
+
+
+for (int i = 0; i < size; i++)
+	{
+		middleElement = middleElement->getNext();
+	}
+	return middleElement;
+
+
+ISingleNode03 *temp = new SingleNode03();
+
+	ISingleNode03 *result = temp;
+	while (left != NULL && right != NULL)
+	{
+		if (left->getValue() <= right->getValue())
+		{
+			result->setNext(left);
+			left = left->getNext();
+		}
+		else if (left->getValue() > right->getValue())
+		{
+			result->setNext(right);
+			right = right->getNext();
+		}
+		result = result->getNext();
+	}
+	if (left == NULL)
+	{
+		result->setNext(right);
+
+	}
+	if (right == NULL)
+	{
+		result->setNext(left);
+	}
+	return temp->getNext();
