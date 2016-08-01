@@ -3,10 +3,10 @@
 /////////////////////////////////////////////////////////////////////////
 // Sockets.h - C++ wrapper for Win32 socket api                        //
 // ver 4.7                                                             //
-// Jim Fawcett, CSE687 - Object Oriented Design, Spring 2015           //
-// CST 4-187, Syracuse University, 315 443-3948, jfawcett@twcny.rr.com //
+// Jim Fawcett, CSE687 - Object Oriented Design, Spring 2016           //
+// CST 4-187, Syracuse University, 316 443-3948, jfawcett@twcny.rr.com //
 //---------------------------------------------------------------------//
-// Jim Fawcett (c) copyright 2015                                      //
+// Jim Fawcett (c) copyright 2016                                      //
 // All rights granted provided this copyright notice is retained       //
 //---------------------------------------------------------------------//
 // Application: OOD Projects #3, #4                                    //
@@ -37,14 +37,14 @@
 *
 *  Maintenance History:
 *  --------------------
-*  ver 4.7 : 04 Apr 15
+*  ver 4.7 : 04 Apr 16
 *  - removed testBlockHandling declaration from Socket.cpp ClientHandler.
 *    The implementation had already been removed, I just forgot the declaration.
 *  - added test for INVALID_SOCKET in Socket::recvString.  The omission was
 *    reported by Huanming Fang.  Thanks Huanming.
-*  ver 4.6 : 30 Mar 15
+*  ver 4.6 : 30 Mar 16
 *  - minor modification to comments, above, and in Socket class implem.
-*  ver 4.5 : 30 Mar 15
+*  ver 4.5 : 30 Mar 16
 *  - moved SocketListener::start(...) from cpp to h file since it is a
 *    template method.
 *  - renamed ClientProc to ClientHandler
@@ -64,22 +64,22 @@
 *    than the loopback by adding hints.ai_flags = AI_PASSIVE to
 *    SocketListener member data.
 *  - added more testing
-*  ver 4.4 : 27 Mar 15
+*  ver 4.4 : 27 Mar 16
 *  - minor changes to comments
 *  - moved ClientHandler into test stub
-*  ver 4.3 : 26 Mar 15
+*  ver 4.3 : 26 Mar 16
 *  - fixed bug noticed by Tarun Rajput 
 *  - used '0' as terminator.  Should have been '\0'
-*  ver 4.2 : 26 Mar 15
+*  ver 4.2 : 26 Mar 16
 *  - several small changes to the Socket class interface
-*  ver 4.1 : 25 Mar 15
+*  ver 4.1 : 25 Mar 16
 *  - fixed connection bug that prevented connecting to anything
 *    other than a loopback (localhost, 127.0.0.1, ::1) by
 *    adding winsock code to SocketConnecter().
 *  - removed low-level code from ClientProc 
 *    (server's client handler callable object)
 *    replaced with code written to Socket interface
-*  Ver 4.0 : 24 Mar 15
+*  Ver 4.0 : 24 Mar 16
 *  - first release of total redesign - had a known bug (see ver 4.1)
 */
 /*
